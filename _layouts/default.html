@@ -50,11 +50,12 @@ ga('send', 'pageview');
 <nav id="menu">
     <ul>
         <h3>Navigation</h3>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About <span class="badge badge-primary">Memoirs Jekyll Theme</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/">Get Memoirs</a></li>      
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
-    </ul>   
+        <li><a href="{{ site.baseurl }}/">HOME</a></li>
+        <li><a href="{{ site.baseurl }}/about">ABOUT ME</span></a></li>
+<!--        <li><a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/">Get Memoirs</a></li>      -->
+        <li><a href="{{ site.baseurl }}/categories">CATEGOR</a></li>
+<!--        <li><a href="{{ site.baseurl }}/contact">联系我</a></li>-->
+    </ul>
 </nav>
 
 {% include search-lunr.html %}
@@ -66,7 +67,6 @@ ga('send', 'pageview');
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
 
 <div class="container">
-
     <!-- Site Logo/Name
     ================================================== -->
    
@@ -113,9 +113,9 @@ ga('send', 'pageview');
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
-            </div>
+<!--            <div class="col-md-6 col-sm-12 text-center text-lg-right">    -->
+<!--                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net-->
+<!--            </div>-->
         </div>
     </div>
 </footer>
